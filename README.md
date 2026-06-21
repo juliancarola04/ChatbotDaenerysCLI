@@ -8,7 +8,7 @@ Este proyecto es un chatbot de consola hecho en Python que se conecta a Gemini. 
 
 - Python 3.10 o superior.
 - Una cuenta y una clave de acceso de Google Gemini.
-- Un archivo `.env` en la carpeta del proyecto con la variable `MODEL_NAME`.
+- Un archivo `.env` en la carpeta del proyecto con la variable `MODEL_NAME` y `GEMINI_API_KEY`.
 
 ## Instalación
 
@@ -24,6 +24,7 @@ pip install -r requirements.txt
 
 ```env
 MODEL_NAME=gemini-3.5-flash
+GEMINI_API_KEY=tuApiKey
 ```
 
 Si usás otro modelo disponible en tu cuenta, podés reemplazar ese valor.
