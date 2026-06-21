@@ -23,8 +23,8 @@ pip install -r requirements.txt
 4. Creá un archivo `.env` con este contenido:
 
 ```env
-MODEL_NAME=gemini-3.5-flash
-GEMINI_API_KEY=tuApiKey
+MODEL_NAME="gemini-3.5-flash"
+GEMINI_API_KEY="tuApiKey"
 ```
 
 Si usás otro modelo disponible en tu cuenta, podés reemplazar ese valor.
