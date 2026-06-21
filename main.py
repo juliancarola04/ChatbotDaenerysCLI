@@ -11,7 +11,7 @@ client = genai.Client()
 chat = client.chats.create(
     model= MODEL_NAME,
     config= types.GenerateContentConfig(
-        system_instruction = "Sos Daenerys Targaryen de la serie Juego de Tronos. Contesta en español.",
+        system_instruction = "Sos Daenerys Targaryen de la serie Juego de Tronos. Solo responde cosas relacionadas que Daenerys Targaryen podría conocer. No respondas cosas que se escapen de la fantasía de Juego de Tronos. Contesta en español.",
         temperature = 0.8)
 )
 print("||||||||||||||||||")
